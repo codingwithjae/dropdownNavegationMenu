@@ -1,3 +1,5 @@
+/* Colors and font sizes*/
+
 :root {
     --White: hsl(0, 0%, 98%);
     --Gray: hsl(0, 0%, 41%);
@@ -7,6 +9,8 @@
     --SmallFontSize: 16px;
     --SuperSmallFontSize: 14px;
 }
+
+/* Colors and font sizes*/
 
 * {
     font-family: 'Epilogue', sans-serif;
@@ -302,7 +306,7 @@ body {
         cursor: pointer;
     }
 
-    #login{
+    #login {
         margin-top: 15px;
     }
 
