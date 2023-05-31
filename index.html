@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <title>Challenge: Intro section with dropdown navigation</title>
+</head>
+
+<body>
+
+  <!-- Header menu desktop -->
+
+  <header class="header-container">
+
+    <div><img class="logo" src="assets/images/logo.svg" alt="snap-logo"></div>
+    <div><img class="icon-menu" id="burger" src="assets/images/icon-menu.svg" alt="icon-menu"></div>
+
+    <section class="dropdown">
+      <div id="features">Features<i> <img class="dropdown-left-icon" id="rotate-activation" src="assets/images/icon-arrow-down.svg" alt="arrow-down"></i></div>
+      <div id="company">Company<i><img class="dropdown-right-icon" src="assets/images/icon-arrow-down.svg" alt="arrow-down"></i></div>
+      <div id="careers">Careers</div>
+      <div id="about">About</div>
+    </section>
+
+    <section class="login-register">
+      <div id="login">Login</div>
+      <div class="register-container"><div id="register">Register</div></div>
+    </section>
+
+    <section class="dropdown-left-desktop-container" id="activation-left">
+      <div class="mobile-menu-left">
+        <div id="features-dropdown">
+          <ul>
+            <div class="list-container">
+              <ul>
+                <li id="todo-list"><i id="icon-todo"><img src="assets/images/icon-todo.svg" alt="todo-list-icon"></i>Todo List</li>
+                <li id="calendar"><i id="icon-calendar"><img src="assets/images/icon-calendar.svg" alt="todo-list-icon"></i>Calendar</li>
+                <li id="reminders"><i id="icon-reminders"><img src="assets/images/icon-reminders.svg" alt="todo-list-icon"></i>Reminders</li>
+                <li id="planning"><i id="icon-planning"><img src="assets/images/icon-planning.svg" alt="todo-list-icon"></i>Planning</li>
+              </ul>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Header menu mobile -->
+
+    <section class="dropdown-right-desktop-container" id="activation-right">
+      <div class="mobile-menu-right">
+        <div id="company-dropdown">
+          <ul>
+            <div class="list-container">
+              <ul>
+                <ul>
+                  <li id="history">History</li>
+                  <li id="our-team">Our Team</li>
+                  <li id="blog">Blog</li>
+                </ul>
+              </ul>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </header>
+
+  <!-- Content mobile and desktop -->
+
+  <main class="content-container">
+    <div class="hero-container-mobile"><img class="image-mobile" src="assets/images/image-hero-mobile.png" alt="image-mobile"> </div>
+    <div class="content">
+      <h1 class="title">Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <div class="button-main-container" </div>
+        <div class="button-container"><a>Learn more</a></div>
+        <div class="hero-container-desktop"><img class="image-desktop" src="assets/images/image-hero-desktop.png" alt="image-desktop"></div>
+      </div>
+  </main>
+
+  <!-- Footer mobile and desktop -->
+
+  <footer class="footer-container">
+    <div><img class="databitz" src="assets/images/client-databiz.svg" alt="databitz-logo"></div>
+    <div><img class="audiophile" src="assets/images/client-audiophile.svg" alt="audiophile-logo"></div>
+    <div><img class="meet" src="assets/images/client-meet.svg" alt="meet-logo"></div>
+    <div><img class="maker" src="assets/images/client-maker.svg" alt="maker-logo"></div>
+  </footer>
+
+  <!-- Mobile Sidebar -->
+
+  <section class="dropdown-mobile-container" id="activation-menu-mobile">
+    <div class="mobile-menu">
+      <i><img class="closing-icon" id="closing" src="assets/images/icon-close-menu.svg" alt="closing-icon"></i>
+      <div id="features-dropdown-mobile">
+        <ul>
+          <li>
+            <p class="features-mobile">Features <i class="icon-up"><img class="dropdown-mobile-icon-left" id="rotate-activation" src="assets/images/icon-arrow-up.svg" alt="icon-up"></i></p>
+            <div class="list-container-mobile-left">
+              <ul id="activation-left-list">
+                <li id="todo-list-mobile"><i id="icon-todo-mobile"><img src="assets/images/icon-todo.svg" alt="todo-list-icon"></i>Todo List</li>
+                <li id="calendar-mobile"><i id="icon-calendar-mobile"><img src="assets/images/icon-calendar.svg" alt="todo-list-icon"></i>Calendar</li>
+                <li id="reminders-mobile"><i id="icon-reminders-mobile"><img src="assets/images/icon-reminders.svg" alt="todo-list-icon"></i>Reminders</li>
+                <li id="planning-mobile"><i id="icon-planning-mobile"><img src="assets/images/icon-planning.svg" alt="todo-list-icon"></i>Planning</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="company-dropdown-mobile-container">
+        <ul>
+          <l>
+            <p class="company-mobile">Company <i class="icon-up"><img class="dropdown-mobile-icon-right" id="rotate" src="assets/images/icon-arrow-up.svg" alt="icon-up"></i></p>
+            <div class="list-container-mobile-right" id="activation-right-list">
+              <ul>
+                <li id="history-mobile">History</li>
+                <li id="our-team-mobile">Our Team</li>
+                <li id="blog-mobile">Blog</li>
+              </ul>
+            </div>
+            </li>
+        </ul>
+      </div>
+      <div class="careers-login-mobile-container">
+        <ul>
+          <li id="careers-mobile">Careers</li>
+          <li id="about-mobile">About</li>
+        </ul>
+      </div>
+      <div class="buttons-mobile-container">
+        <div id="container-login-mobile"><a>Login</a></div>
+        <div id="container-register-mobile"><a>Register</a></div>
+      </div>
+  </section>
+
+  <script src="assets/javascript/main.js"></script>
+</body>
+
+</html>
