@@ -1,45 +1,44 @@
 /* Colors and font sizes*/
 
 :root {
-    --White: hsl(0, 0%, 98%);
-    --Gray: hsl(0, 0%, 41%);
-    --Black: hsl(0, 0%, 8%);
-    --SuperBigFontSize: 80px;
-    --BigFontSize: 18px;
-    --SmallFontSize: 16px;
-    --SuperSmallFontSize: 14px;
+  --White: hsl(0, 0%, 98%);
+  --Gray: hsl(0, 0%, 41%);
+  --Black: hsl(0, 0%, 8%);
+  --SuperBigFontSize: 80px;
+  --BigFontSize: 18px;
+  --SmallFontSize: 16px;
+  --SuperSmallFontSize: 14px;
 }
 
 /* Colors and font sizes*/
 
 * {
-    font-family: 'Epilogue', sans-serif;
-    list-style-type: none;
-
+  font-family: "Epilogue", sans-serif;
+  list-style-type: none;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 /* mobile sidebar menu begin*/
 
 .list-container-mobile {
-    display: none;
+  display: none;
 }
 
 .features-dropdown-mobile,
 .company-dropdown-mobile,
 .careers-login-container-mobile {
-    margin-right: -30px;
+  margin-right: -30px;
 }
 
 .careers-login-mobile-container {
-    margin-top: -15px;
+  margin-top: -15px;
 }
 
 .icon-up {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 #todo-list-mobile,
@@ -49,81 +48,75 @@ body {
 #history-mobile,
 #our-team-mobile,
 #blog-mobile {
-    margin-left: -25px;
-    margin-top: 20px;
+  margin-left: -25px;
+  margin-top: 20px;
 }
 
 #icon-todo-mobile,
 #icon-calendar-mobile,
 #icon-reminders-mobile,
 #icon-planning-mobile {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 #careers-mobile,
 #about-mobile {
-    margin-top: 36px;
+  margin-top: 36px;
 }
 
 .closing-icon {
-    margin-left: 200px;
-    margin-top: 10px;
+  margin-left: 200px;
+  margin-top: 10px;
 }
 
 .dropdown-mobile-container {
-    display: flex;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    justify-content: right;
-    font-size: var(--SmallFontSize);
-    color: var(--Gray);
-    width: 400px;
-    background-color: rgba(21, 21, 21, 0.8);
-    background-blend-mode: normal;
-    overflow: scroll;
-
+  display: flex;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  justify-content: right;
+  font-size: var(--SmallFontSize);
+  color: var(--Gray);
+  width: 100%;
+  background-color: rgba(21, 21, 21, 0.8);
+  background-blend-mode: normal;
+  overflow: scroll;
 }
 
 .mobile-menu {
-    width: 240px;
-    height: 780px;
-    background-color: var(--White);
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    opacity: 1;
+  width: 240px;
+  height: 780px;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  opacity: 1;
 }
 
 #container-login-mobile,
 #container-register-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 195px;
-    height: 42px;
-    margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 42px;
+  margin-left: 20px;
 }
 
 .buttons-mobile-container {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #container-register-mobile {
-    border: 1.5px solid var(--Gray);
-    border-radius: 14px;
+  border: 1.5px solid var(--Gray);
+  border-radius: 14px;
 }
 
 #activation-menu-mobile {
-    display: none;
+  display: none;
 }
 
-.sidebar-black-background {
-    position: fixed;
-    background: #151515;
-    mix-blend-mode: normal;
-    opacity: 0.75;
-}
+
 
 /* mobile sidebar menu end*/
 
@@ -135,317 +128,314 @@ body {
 #about,
 #login,
 #register {
-    display: none;
+  display: none;
 }
 
 .image-mobile {
-    width: 375px;
+  width: 375px;
 }
 
 .image-desktop {
-    display: none;
+  display: none;
 }
 
 .header-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
 }
 
 .content-container {
-    text-align: center;
-    display: grid;
+  text-align: center;
+  display: grid;
 }
 
 .content h1 {
-    margin-top: 45px;
+  margin-top: 45px;
 }
 
 .content p {
-    color: var(--Gray);
-    margin-left: 10px;
-    margin-right: 10px;
+  color: var(--Gray);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .content p,
 .content a {
-    font: var(--SmallFontSize);
-    line-height: 26px;
+  font: var(--SmallFontSize);
+  line-height: 26px;
 }
 
 .button-main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 30px;
-    align-items: center;
-    width: 136px;
-    background: var(--Black);
-    border-radius: 15px;
-    color: var(--White);
-    height: 48px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  align-items: center;
+  width: 136px;
+  background: var(--Black);
+  border-radius: 15px;
+  color: var(--White);
+  height: 48px;
 }
 
 .button-container a {
-    font-weight: 700px;
-    font-style: normal;
+  font-weight: 700px;
+  font-style: normal;
 }
 
 .button-container a:hover {
-    background-color: var(--White);
-    color: var(--Black);
-    border: 2px solid var(--Black);
-    border-radius: 15px;
-    height: 46px;
+  background-color: var(--White);
+  color: var(--Black);
+  border: 2px solid var(--Black);
+  border-radius: 15px;
+  height: 46px;
 }
 
 .footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .databitz,
 .audiophile,
 .meet,
 .maker {
-    scale: 0.8;
+  scale: 0.8;
 }
 
-
 .mobile-menu-left {
-    margin-left: -45px;
+  margin-left: -45px;
 }
 
 #todo-list,
 #calendar,
 #reminders,
 #planning {
-    margin-left: -20px;
-    margin-top: 15px;
+  margin-left: -20px;
+  margin-top: 15px;
 }
 
 #icon-todo,
 #icon-calendar,
 #icon-reminders,
 #icon-planning {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .dropdown-left-desktop-container,
 .dropdown-right-desktop-container {
-    display: none;
+  display: none;
 }
 
-
 @media only screen and (min-height: 844px) {
-
-    .dropdown-mobile-container,
-    .mobile-menu {
-        height: 100vh;
-    }
-
+  .dropdown-mobile-container,
+  .mobile-menu {
+    height: 100vh;
+  }
 }
 
 @media only screen and (min-width: 821px) {
-
-    .dropdown-mobile-container {
-        display: none;
-    }
+  .dropdown-mobile-container {
+    display: none;
+  }
 }
 
+@media only screen and (min-width: 1024px) {
+  #rotation-left {
+    transform: rotate(0deg);
+  }
 
-@media only screen and (min-width: 1024px) and (max-height: 1310px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 30px;
+    color: var(--Gray);
+  }
 
-    #rotation-left {
-        transform: rotate(0deg);
-    }
+  .icon-menu {
+    display: none;
+  }
 
-    .header-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: space-between;
-        margin: 30px;
-        color: var(--Gray);
-    }
+  .dropdown {
+    margin-left: 150px;
+    margin-top: -40px;
+  }
 
-    .icon-menu {
-        display: none;
-    }
+  .login-register {
+    margin-left: 150px;
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 
-    .dropdown {
-        margin-left: 150px;
-        margin-top: -40px;
-    }
+  #features,
+  #company,
+  #careers,
+  #about,
+  #login,
+  #register {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
 
-    .login-register {
-        margin-left: 150px;
-        margin-top: -40px;
-        display: grid;
-        grid-template-columns: auto auto;
-    }
+  #login {
+    margin-top: 15px;
+  }
 
-    #features,
-    #company,
-    #careers,
-    #about,
-    #login,
-    #register {
-        display: inline;
-        margin-left: 20px;
-        margin-right: 20px;
-        cursor: pointer;
-    }
+  .register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #151515;
+    border-radius: 14px;
+    width: 104px;
+    height: 42px;
+  }
 
-    #login {
-        margin-top: 15px;
-    }
+  .image-mobile {
+    display: none;
+  }
 
-    .register-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1.5px solid #151515;
-        border-radius: 14px;
-        width: 104px;
-        height: 42px;
-    }
+  .image-desktop {
+    width: 480px;
+    height: 640px;
+    display: inline-block;
+    position: absolute;
+    right: 75px;
+    top: 150px;
+  }
 
-    .image-mobile {
-        display: none;
-    }
+  .content-container {
+    display: flex;
+    justify-content: left;
+    width: 540px;
+    height: 500px;
+    margin-left: 75px;
+    margin-top: 150px;
+  }
 
-    .image-desktop {
-        width: 480px;
-        height: 640px;
-        display: inline-block;
-        position: absolute;
-        right: 75px;
-        top: 150px;
-    }
+  .content h1 {
+    font-size: var(--SuperBigFontSize);
+    text-align: left;
+  }
 
-    .content-container {
-        display: flex;
-        justify-content: left;
-        width: 540px;
-        height: 500px;
-        margin-left: 75px;
-        margin-top: 150px;
-    }
+  .content p {
+    text-align: left;
+    margin-right: 150px;
+  }
 
-    .content h1 {
-        font-size: var(--SuperBigFontSize);
-        text-align: left;
-    }
+  .footer-container {
+    margin-top: 20px;
+    margin-right: 675px;
+    gap: 20px;
+  }
 
-    .content p {
-        text-align: left;
-        margin-right: 150px;
-    }
+  .button-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 163px;
+    height: 56px;
+  }
 
-    .footer-container {
-        margin-top: 20px;
-        margin-right: 675px;
-        gap: 20px;
-    }
+  .button-main-container {
+    display: flex;
+    justify-content: left;
+  }
 
-    .button-container a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 163px;
-        height: 56px;
-    }
+  i {
+    margin-left: 10px;
+  }
 
-    .button-main-container {
-        display: flex;
-        justify-content: left;
-    }
-
-    i {
-        margin-left: 10px;
-    }
-
-    /* mobile content styling ends/
+  /* mobile content styling ends/
 
 
     /* desktop dropdown menus styling begin*/
 
-    #activation-left,
-    #activation-right {
-        display: none;
+  #activation-left,
+  #activation-right {
+    display: none;
+  }
 
-    }
+  #rotate-activation {
+    transform: rotate(0deg);
+  }
 
-    #rotate-activation {
-        transform: rotate(0deg);
-    }
+  .dropdown-left-desktop-container {
+    position: absolute;
+    display: flex;
+    width: 153px;
+    height: 160px;
+    color: var(--Gray);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+    border-radius: 10px;
+    font-size: var(--SmallFontSize);
+    left: 133px;
+    top: 70px;
+  }
 
-    .dropdown-left-desktop-container {
-        position: absolute;
-        display: flex;
-        width: 153px;
-        height: 160px;
-        color: var(--Gray);
-        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
-        border-radius: 10px;
-        font-size: var(--SmallFontSize);
-        left: 133px;
-        top: 70px;
-    }
+  .mobile-menu-right {
+    margin-left: -35px;
+  }
 
-    .mobile-menu-right {
-        margin-left: -35px;
-    }
+  #history,
+  #our-team,
+  #blog {
+    margin-left: -43px;
+    margin-top: 15px;
+  }
 
-    #history,
-    #our-team,
-    #blog {
-        margin-left: -43px;
-        margin-top: 15px;
-    }
+  #company-dropdown {
+    margin-top: 40px;
+  }
 
-    #company-dropdown {
-        margin-top: 40px;
-    }
-
-    .dropdown-right-desktop-container {
-        position: absolute;
-        display: flex;
-        width: 153px;
-        height: 160px;
-        color: var(--Gray);
-        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
-        border-radius: 10px;
-        font-size: var(--SmallFontSize);
-        left: 326px;
-        top: 70px;
-    }
+  .dropdown-right-desktop-container {
+    position: absolute;
+    display: flex;
+    width: 153px;
+    height: 160px;
+    color: var(--Gray);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+    border-radius: 10px;
+    font-size: var(--SmallFontSize);
+    left: 326px;
+    top: 70px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
+  .image-desktop {
+    right: 175px;
+  }
 
-    .image-desktop {
-        right: 175px;
-    }
+  .content-container {
+    margin-left: 155px;
+  }
 
-    .content-container {
-        margin-left: 155px;
-    }
+  .footer-container {
+    margin-right: 715px;
+  }
+}
 
-    .footer-container {
-        margin-right: 715px;
-    }
-
+@media only screen and (min-width: 3840px) {
+  .footer-container {
+    position: relative;
+    right: 1200px;
+  }
 }
 
 /* desktop dropdown menus styling end*/

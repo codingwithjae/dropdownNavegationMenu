@@ -1,6 +1,6 @@
-# Frontend Mentor - Intro section with dropdown navigation solution
+# Frontend Mentor - Intro section with a dropdown navigation solution
 
-This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). 
+This is a solution to the [Intro section with a dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). 
 
 Frontend Mentor challenges help to improve coding skills by building realistic projects. 
 
@@ -20,7 +20,7 @@ Frontend Mentor challenges help to improve coding skills by building realistic p
 
 ### The challenge
 
-The challenge is to build out a dropdown navigation menu for a single page website.
+The challenge is to build out a dropdown navigation menu for a single-page website.
 
 Users should be able to:
 
@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jaegit123/My-portfolio)
+- Solution URL: [GitHub](https://github.com/jaegit123/My-portfolio)
 
 - Live Site URL: [Github Pages](https://jaegit123.github.io/My-portfolio/)
 
@@ -56,6 +56,7 @@ Users should be able to:
 ### What can be improve
 
 - JavaScript elements work on the second click.
+- HTML can be more semantic and CSS could use BEM methodology.
 - When JavaScript elements are activated by clicking they must be closed manually when someone uses the web browser inspector to change the screen size.
 
 ## Author
