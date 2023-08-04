@@ -1,8 +1,8 @@
 # Frontend Mentor - Intro section with a dropdown navigation solution
 
-This is a solution to the [Intro section with a dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). 
+This is a solution to the [Intro section with a dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5).
 
-Frontend Mentor challenges help to improve coding skills by building realistic projects. 
+Frontend Mentor challenges help to improve coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -30,7 +30,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](assets/images/preview.png)
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGZta2wyNTJ4aWQ0MGZ0eXd6eHQ0c2VkMTAzMmExeHhpZXlycDN5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8KsBll299ekhNmgZiw/giphy.gif"/>
+</p>
 
 ### Links
 
@@ -42,10 +44,9 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup.
-- Flexbox.
-- CSS Grid.
-- Vanilla JavaScript.
+- HTML
+- CSS.
+- JavaScript.
 - Mobile-first design.
 
 ### What I learned
@@ -62,3 +63,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@jaegit123](https://www.frontendmentor.io/profile/jaegit123)
+- Check out my [portfolio](https://codingwithjae.dev/)
