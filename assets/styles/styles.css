@@ -4,6 +4,7 @@
   --White: hsl(0, 0%, 98%);
   --Gray: hsl(0, 0%, 41%);
   --Black: hsl(0, 0%, 8%);
+  --LightOrange: #f6a560;
   --SuperBigFontSize: 80px;
   --BigFontSize: 18px;
   --SmallFontSize: 16px;
@@ -115,8 +116,6 @@ body {
 #activation-menu-mobile {
   display: none;
 }
-
-
 
 /* mobile sidebar menu end*/
 
@@ -236,6 +235,25 @@ body {
 .dropdown-left-desktop-container,
 .dropdown-right-desktop-container {
   display: none;
+}
+
+.credit {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 100px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.underline {
+  border-bottom: solid 4px var(--LightOrange);
 }
 
 @media only screen and (min-height: 844px) {
